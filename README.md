@@ -41,6 +41,7 @@ It's a playful and motivational sidekick built with **Electron + React**, design
 
 ## 🚀 Getting Started
 
+```bash
 cd codemigo
 
 npm install
