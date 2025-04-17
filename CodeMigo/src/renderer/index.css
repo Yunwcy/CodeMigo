@@ -1,0 +1,108 @@
+/* 全畫面去除空白邊界 */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ffffff; /* 可選 */
+}
+
+.codepet-container {
+    max-width: 400px;
+    margin: 0rem auto;
+    padding: 1.5rem;
+    border: 2px solid #ccc;
+    border-radius: 1rem;
+    background-color: #fff;
+    font-family: sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .codepet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .level-badge {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .stat-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .stat-block {
+    width: 100%;
+    max-width: calc(33.333% - 0.5rem);
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  /* 🧠 智慧值：淺藍 */
+  .stat-intelligence {
+    background-color: #eff6ff; /* light blue */
+  }
+
+  /* 🔋 體力值：淺綠 */
+  .stat-energy {
+    background-color: #ecfdf5; /* light green */
+  }
+
+  /* ❤️ 幸福值：淺紅 */
+  .stat-happiness {
+    background-color: #fef2f2; /* light red */
+  }
+  
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 10px;
+    margin: 0.5rem 0;
+  }
+  
+  .progress-bar-fill {
+    background-color: #60a5fa;
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  .codepet-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .codepet-buttons button {
+    flex: 1;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  
+  .btn-log {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .btn-cancel {
+    background-color: #e5e7eb;
+  }
+  
