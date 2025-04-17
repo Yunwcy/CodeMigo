@@ -3,7 +3,7 @@ const { ipcRenderer } = window.require('electron');
 
 
 export default function CodePet() {
-  const [name, setName] = useState('Yuan');
+  const [name, setName] = useState('YourName');
   const [experience, setExperience] = useState(0);
   const [lastCoding, setLastCoding] = useState(Date.now());
   const [mood, setMood] = useState('happy');
